@@ -42,7 +42,7 @@ export function About() {
               {
                 icon: Zap,
                 label: "Passion",
-                description: "Motorsport Data",
+                description: "Software development and sports",
               },
             ].map((item) => (
               <div
