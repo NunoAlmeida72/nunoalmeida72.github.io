@@ -32,16 +32,18 @@ export function Footer() {
             {/* Social Links */}
             <div className="flex items-center gap-4">
               <a
-                href="#"
-                onClick={(e) => e.preventDefault()}
+                href="https://www.linkedin.com/in/nuno-almeida-646b8829b"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center text-muted-foreground hover:bg-primary/20 hover:text-primary transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="#"
-                onClick={(e) => e.preventDefault()}
+                href="https://github.com/NunoAlmeida72"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center text-muted-foreground hover:bg-primary/20 hover:text-primary transition-colors"
                 aria-label="GitHub"
               >
