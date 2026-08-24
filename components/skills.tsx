@@ -1,28 +1,46 @@
 "use client";
 
-import { Database, Code, BarChart3, Settings } from "lucide-react";
+import { Database, Code, Settings, Cpu, Layers, Users } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 const skillCategories = [
   {
-    icon: Database,
-    title: "Data & Databases",
-    skills: ["SQL Server", "Oracle SQL", "MongoDB", "ETL processes", "Data Modeling"],
-  },
-  {
     icon: Code,
-    title: "Programming Languages",
-    skills: ["Python", "C#", "Java", "C", "TypeScript", "JavaScript"],
+    title: "Programming",
+    skills: ["Java", "C#", "Python", "TypeScript", "JavaScript", "Prolog"],
   },
   {
-    icon: BarChart3,
-    title: "Visualization & Reporting",
-    skills: ["Power BI", "SSRS", "Interactive Dashboards"],
+    icon: Layers,
+    title: "Frameworks & Tools",
+    skills: ["Node.js", "Vue.js", "ASP.NET", ".NET"],
+  },
+  {
+    icon: Database,
+    title: "Databases",
+    skills: ["SQL Server", "Oracle SQL", "MongoDB"],
+  },
+  {
+    icon: Cpu,
+    title: "AI & Data",
+    skills: [
+      "ROS 2",
+      "YOLOv8",
+      "LLMs (Qwen3, Gemma)",
+      "XGBoost",
+      "Pandas",
+      "Numpy",
+      "Genetic Algorithms",
+    ],
   },
   {
     icon: Settings,
-    title: "Tools & Practices",
-    skills: ["Software Engineering (Scrum, Agile)", "Git", "Postman", "Backend Architecture"],
+    title: "Other Tools",
+    skills: ["GitHub", "Bitbucket", "Jira", "Trello", "Postman", "Power BI", "SSRS"],
+  },
+  {
+    icon: Users,
+    title: "Methodologies",
+    skills: ["Scrum", "Agile"],
   },
 ];
 

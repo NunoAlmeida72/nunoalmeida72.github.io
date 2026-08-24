@@ -18,13 +18,6 @@ const education = [
     period: "2020 – 2024",
     icon: GraduationCap,
   },
-  {
-    type: "certification",
-    title: "Motorsport Data Analysis & Race Engineering",
-    institution: "ISEP Motorsport Academy",
-    period: "Nov 2024",
-    icon: Award,
-  },
 ];
 
 export function Education() {

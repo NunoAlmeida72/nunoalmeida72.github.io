@@ -9,8 +9,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Nuno Almeida | Junior Software Developer & Aspiring Data Engineer',
-  description: 'Personal portfolio of Nuno Almeida - Software Developer with a focus on backend development, data engineering, and AI. Currently pursuing a Master\'s in Artificial Intelligence.',
+  title: 'Nuno Almeida | Junior Fullstack Developer',
+  description: 'Personal portfolio of Nuno Almeida - Fullstack Developer specializing in backend architectures, enterprise systems, and Artificial Intelligence.',
   generator: 'v0.app',
   icons: {
     icon: [

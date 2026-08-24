@@ -19,7 +19,7 @@ export function About() {
           </h3>
 
           <p className="text-base md:text-lg text-muted-foreground leading-relaxed mb-12 text-pretty">
-            I am a Software Developer with a solid foundation in backend development, database modeling, and system integration. Currently pursuing a Master&apos;s in Artificial Intelligence, I have a strong motivation to transition into Data Engineering. I combine analytical thinking with a passion for sports in general (from being a federated athlete to closely following various sports like motorsport, football, and others), aiming to build robust data pipelines and extract meaningful insights.
+            I am a Software Developer and Master&apos;s in Artificial Intelligence Engineering candidate. Experienced in Fullstack development, backend architectures, and enterprise ERP modernization using .NET, Vue.js, and SQL. Currently specializing in AI, Machine Learning, and Multi-Agent Systems, with a portfolio of projects spanning predictive quantitative models and autonomous robotics.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -27,22 +27,22 @@ export function About() {
               {
                 icon: User,
                 label: "Developer",
-                description: "Backend focused",
+                description: "Fullstack & Backend",
               },
               {
                 icon: Briefcase,
                 label: "Experience",
-                description: "ERP & Data Systems",
+                description: "ERP Modernization",
               },
               {
                 icon: GraduationCap,
                 label: "Education",
-                description: "AI Master's Student",
+                description: "AI Engineering Master's",
               },
               {
                 icon: Zap,
-                label: "Passion",
-                description: "Software development and sports",
+                label: "Interests",
+                description: "Software Development, AI & Sports",
               },
             ].map((item) => (
               <div

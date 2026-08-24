@@ -4,14 +4,13 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
-    title: "Junior Software Developer",
-    subtitle: "Backend & Data Focus",
+    title: "Junior Fullstack Developer",
     company: "Sistrade",
     period: "Sep 2024 – Present",
     description: [
-      "Developed ERP features with a focus on data structuring.",
-      "Designed custom analytical reports using SSRS and complex SQL queries.",
-      "Developed backend logic for employee portal time-tracking data ingestion.",
+      "Restructured the Employee Portal (Vue.js, .NET 6.0, SQL, SSRS) for both internal staff and external clients.",
+      "Developed and maintained critical HR modules for time tracking, vacation management, overtime, and medical appointments.",
+      "Designed and implemented custom automated HR reports (pay slips, vacation schedules) utilizing SQL Server Reporting Services.",
     ],
   },
   {
@@ -19,8 +18,8 @@ const experiences = [
     company: "Sistrade",
     period: "Mar 2024 – Jun 2024",
     description: [
-      "Integrated interactive dashboards for monitoring operational data.",
-      "Contributed to onboarding software workflows in .NET.",
+      "Contributed to the development of an onboarding software system using .NET and Vue.js.",
+      "Designed interactive dashboards with ApexCharts, providing analytical reports to monitor key metrics such as employee turnover rates.",
     ],
   },
 ];

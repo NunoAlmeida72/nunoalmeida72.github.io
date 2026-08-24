@@ -28,7 +28,7 @@ export function Hero() {
           </h1>
 
           <h2 className="text-xl md:text-2xl font-medium text-primary mb-6">
-            Junior Software Developer & Aspiring Data Engineer
+            Junior Fullstack Developer & Master's in AI Engineering Candidate
           </h2>
 
           <p className="text-base md:text-lg text-muted-foreground max-w-xl mx-auto mb-8 leading-relaxed text-pretty">
