@@ -9,8 +9,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Nuno Almeida | Junior Fullstack Developer',
-  description: 'Personal portfolio of Nuno Almeida - Fullstack Developer specializing in backend architectures, enterprise systems, and Artificial Intelligence.',
+  title: 'Nuno Almeida | Full Stack Developer',
+  description: 'Nuno Almeida, full stack developer at Sistrade (.NET, Vue.js, SQL Server) and MSc student in AI Engineering at ISEP. Porto, Portugal.',
   generator: 'v0.app',
   icons: {
     icon: [

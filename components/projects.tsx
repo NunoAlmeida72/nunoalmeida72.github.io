@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Brain, Code, Cpu, ExternalLink } from "lucide-react";
+import { Brain, Code, Cpu, Lock } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 type Project = {
@@ -15,41 +15,90 @@ type Project = {
 const projects: Project[] = [
   {
     title: "Trading Tomorrow (XAI)",
-    description: "Developed an Explainable AI decision-support system for commodity futures. Built an interactive React frontend connected to Java 25 + Drools 9 and SWI-Prolog engines to explain investment decisions.",
+    description: "Decision support system for commodity futures that explains its suggestions. React frontend with Java 25, Drools 9 and SWI-Prolog engines.",
     category: "ai",
     tags: ["React", "Java 25", "Drools 9", "SWI-Prolog", "XAI"],
   },
   {
     title: "Next Bet",
-    description: "Built a quantitative predictive engine using XGBoost and Genetic Algorithms to identify positive expected value (+EV) sports bets.",
+    description: "Model with XGBoost and genetic algorithms to find sports bets with positive expected value.",
     category: "ai",
-    tags: ["XGBoost", "Genetic Algorithms", "Python", "Predictive Modeling"],
+    tags: ["XGBoost", "Genetic Algorithms", "Python"],
   },
   {
     title: "Auto Insurance Fraud Platform",
-    description: "Created an end-to-end web platform fine-tuning LLMs (Qwen3, Gemma) for text testimony analysis and YOLOv8 for vehicle damage assessment.",
+    description: "Web platform that uses fine-tuned LLMs (Qwen3, Gemma) to analyse witness statements and YOLOv8 to assess vehicle damage.",
     category: "ai",
     tags: ["LLMs", "Qwen3", "Gemma", "YOLOv8", "Computer Vision"],
   },
   {
     title: "SIMAGIA & ArgusAI",
-    description: "Integrated autonomous robotics (ROS 2, Nav2) with a Multi-Agent System (SPADE) using a TIAGo Lite robot for automated car inspections and fraud detection via LLMs.",
+    description: "Car inspection with a TIAGo Lite robot (ROS 2, Nav2) controlled by a multi-agent system (SPADE), with fraud detection using LLMs.",
     category: "ai",
     tags: ["ROS 2", "Nav2", "SPADE", "TIAGo Lite", "LLMs", "Robotics"],
   },
   {
     title: "RobDroneGo",
-    description: "Prototype fleet management system for robots/drones. Implemented CI/CD pipelines and daily database backups on Linux.",
+    description: "Fleet management prototype for robots and drones (Angular, Node.js, .NET), with CI/CD and daily database backups on Linux.",
     category: "se",
     tags: ["Angular", "Node.js", ".NET", "CI/CD", "Linux", "MongoDB"],
   },
   {
     title: "COVID-19 Vaccination System",
-    description: "Java 17 application using Domain-Driven Design (DDD) and MVC. Implemented Role-Based Access Control and statistical reporting features to analyze wait times.",
+    description: "Java 17 application with DDD and MVC, role-based access and reports on waiting times.",
     category: "se",
     tags: ["Java 17", "DDD", "MVC", "RBAC", "Reporting"],
   },
 ];
+
+function FeaturedProject() {
+  return (
+    <div className="mb-12 rounded-xl bg-card border border-border overflow-hidden">
+      <video
+        className="w-full aspect-[16/10] bg-black object-cover"
+        src="/tessera-demo.mp4"
+        poster="/tessera-poster.jpg"
+        autoPlay
+        muted
+        loop
+        playsInline
+        controls
+        preload="metadata"
+      />
+      <div className="p-6">
+        <div className="flex flex-wrap items-center gap-2 mb-3">
+          <span className="text-xs font-medium text-primary uppercase tracking-wider">
+            Personal project · 2026 – Present
+          </span>
+          <span className="inline-flex items-center gap-1 px-2 py-0.5 text-[11px] rounded-full bg-secondary/60 text-muted-foreground">
+            <Lock className="w-3 h-3" />
+            Private repo · in development
+          </span>
+        </div>
+        <h4 className="text-xl font-semibold text-foreground mb-3">
+          TESSERA – real-time fleet tracking
+        </h4>
+        <p className="text-sm text-muted-foreground leading-relaxed mb-2">
+          Web platform where companies follow their vehicles live on a map, plan trips and send tracking links to their customers. Built with .NET, Vue.js and TypeScript, using PostgreSQL and MongoDB, and deployed on my own server with Docker.
+        </p>
+        <p className="text-xs text-muted-foreground/80 mb-5">
+          The video is a recording of the app running locally, with demo companies and simulated vehicles.
+        </p>
+        <div className="flex flex-wrap gap-1.5">
+          {[".NET", "Vue.js", "TypeScript", "SignalR", "PostgreSQL", "MongoDB", "MapLibre", "Docker"].map((tag) => (
+            <Badge
+              key={tag}
+              variant="secondary"
+              className="bg-secondary/40 text-muted-foreground border-transparent text-[11px] font-normal"
+            >
+              {tag}
+            </Badge>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
 
 export function Projects() {
   const [filter, setFilter] = useState<"all" | "ai" | "se">("all");
@@ -70,9 +119,15 @@ export function Projects() {
             </h2>
           </div>
 
+          <h3 className="text-3xl md:text-4xl font-bold text-foreground text-balance mb-8">
+            What I&apos;m building
+          </h3>
+
+          <FeaturedProject />
+
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
-            <h3 className="text-3xl md:text-4xl font-bold text-foreground text-balance">
-              Academic & Personal Projects
+            <h3 className="text-2xl md:text-3xl font-bold text-foreground text-balance">
+              University projects
             </h3>
 
             {/* Filters */}

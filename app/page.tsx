@@ -14,10 +14,10 @@ export default function Portfolio() {
       <Navigation />
       <Hero />
       <About />
-      <Skills />
       <Experience />
-      <Education />
       <Projects />
+      <Skills />
+      <Education />
       <AdditionalInfo />
       <Footer />
     </main>

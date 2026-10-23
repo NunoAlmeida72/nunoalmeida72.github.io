@@ -6,18 +6,18 @@ import { Badge } from "@/components/ui/badge";
 const skillCategories = [
   {
     icon: Code,
-    title: "Programming",
-    skills: ["Java", "C#", "Python", "TypeScript", "JavaScript", "Prolog"],
+    title: "Languages",
+    skills: ["C#", "Java", "TypeScript", "JavaScript", "Python", "SQL", "Prolog"],
   },
   {
     icon: Layers,
-    title: "Frameworks & Tools",
-    skills: ["Node.js", "Vue.js", "ASP.NET", ".NET"],
+    title: "Frameworks",
+    skills: [".NET / ASP.NET Core", "Vue.js", "Node.js", "React", "Angular"],
   },
   {
     icon: Database,
     title: "Databases",
-    skills: ["SQL Server", "Oracle SQL", "MongoDB"],
+    skills: ["SQL Server", "PostgreSQL", "MongoDB", "Oracle SQL"],
   },
   {
     icon: Cpu,
@@ -28,14 +28,14 @@ const skillCategories = [
       "LLMs (Qwen3, Gemma)",
       "XGBoost",
       "Pandas",
-      "Numpy",
+      "NumPy",
       "Genetic Algorithms",
     ],
   },
   {
     icon: Settings,
-    title: "Other Tools",
-    skills: ["GitHub", "Bitbucket", "Jira", "Trello", "Postman", "Power BI", "SSRS"],
+    title: "Tools",
+    skills: ["Git", "GitHub", "Docker", "Linux", "Bitbucket", "Jira", "Postman", "Power BI", "SSRS"],
   },
   {
     icon: Users,

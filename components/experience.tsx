@@ -4,22 +4,25 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
-    title: "Junior Fullstack Developer",
-    company: "Sistrade",
+    title: "Junior Full Stack Developer",
+    company: "Sistrade · Porto",
     period: "Sep 2024 – Present",
     description: [
-      "Restructured the Employee Portal (Vue.js, .NET 6.0, SQL, SSRS) for both internal staff and external clients.",
-      "Developed and maintained critical HR modules for time tracking, vacation management, overtime, and medical appointments.",
-      "Designed and implemented custom automated HR reports (pay slips, vacation schedules) utilizing SQL Server Reporting Services.",
+      "Fix bugs and develop new features in the ERP, from the database to the interface (.NET, Vue.js, SQL Server).",
+      "Rebuilt the Employee Portal (Vue.js, .NET 6, SQL Server, SSRS), used by internal staff and by clients.",
+      "Developed HR modules for time tracking, vacations, overtime and medical appointments.",
+      "Created HR reports in SSRS, such as pay slips and vacation schedules.",
+      "Talk with clients to understand their problems and agree on the solution.",
+      "Supervised an intern during their internship.",
     ],
   },
   {
     title: "Software Development Intern",
-    company: "Sistrade",
+    company: "Sistrade · Porto",
     period: "Mar 2024 – Jun 2024",
     description: [
-      "Contributed to the development of an onboarding software system using .NET and Vue.js.",
-      "Designed interactive dashboards with ApexCharts, providing analytical reports to monitor key metrics such as employee turnover rates.",
+      "Helped develop an employee onboarding application with .NET and Vue.js.",
+      "Built dashboards with ApexCharts to follow indicators such as employee turnover.",
     ],
   },
 ];

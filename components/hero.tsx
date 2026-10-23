@@ -28,11 +28,11 @@ export function Hero() {
           </h1>
 
           <h2 className="text-xl md:text-2xl font-medium text-primary mb-6">
-            Junior Fullstack Developer & Master's in AI Engineering Candidate
+            Full Stack Developer · MSc student in AI Engineering
           </h2>
 
           <p className="text-base md:text-lg text-muted-foreground max-w-xl mx-auto mb-8 leading-relaxed text-pretty">
-            Combining software engineering best practices with data analysis and artificial intelligence.
+            Building ERP software at Sistrade with .NET, Vue.js and SQL Server. Porto, Portugal.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

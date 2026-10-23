@@ -61,9 +61,9 @@ export function AdditionalInfo() {
                 <div className="flex flex-wrap gap-2">
                   {[
                     "Teamwork",
-                    "Problem-solving",
+                    "Problem solving",
+                    "Communication with clients",
                     "Adaptability",
-                    "Communication skills",
                   ].map((skill) => (
                     <Badge
                       key={skill}
@@ -116,7 +116,7 @@ export function AdditionalInfo() {
                       </li>
                       <li className="flex items-center gap-2">
                         <span className="w-1.5 h-1.5 rounded-full bg-primary/60" />
-                        Boy Scout (2010-2016)
+                        Scouts (2010-2016)
                       </li>
                       <li className="flex items-center gap-2">
                         <span className="w-1.5 h-1.5 rounded-full bg-primary/60" />
@@ -141,7 +141,7 @@ export function AdditionalInfo() {
                       Volunteer &mdash; Coffee Shop
                     </h4>
                     <p className="text-sm text-muted-foreground">
-                      Trained and integrated new team members while developing interpersonal and customer communication skills.
+                      Trained new team members and dealt with customers every day.
                     </p>
                   </div>
                 </CardContent>
