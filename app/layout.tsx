@@ -11,21 +11,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Nuno Almeida | Full Stack Developer',
   description: 'Nuno Almeida, full stack developer at Sistrade (.NET, Vue.js, SQL Server) and MSc student in AI Engineering at ISEP. Porto, Portugal.',
-  generator: 'v0.app',
   icons: {
     icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/icon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/icon-512.png', sizes: '512x512', type: 'image/png' },
     ],
     apple: '/apple-icon.png',
   },
