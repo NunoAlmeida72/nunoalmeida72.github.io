@@ -56,8 +56,8 @@ function FeaturedProject() {
     <div className="mb-12 rounded-xl bg-card border border-border overflow-hidden">
       <video
         className="w-full aspect-[16/10] bg-black object-cover"
-        src="/tessera-demo.mp4"
-        poster="/tessera-poster.jpg"
+        src="/tessella-demo.mp4"
+        poster="/tessella-poster.jpg"
         autoPlay
         muted
         loop
