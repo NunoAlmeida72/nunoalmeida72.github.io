@@ -76,7 +76,7 @@ function FeaturedProject() {
           </span>
         </div>
         <h4 className="text-xl font-semibold text-foreground mb-3">
-          TESSERA – real-time fleet tracking
+          TESSELLA – real-time fleet tracking
         </h4>
         <p className="text-sm text-muted-foreground leading-relaxed mb-2">
           Web platform where companies follow their vehicles live on a map, plan trips and send tracking links to their customers. Built with .NET, Vue.js and TypeScript, using PostgreSQL and MongoDB, and deployed on my own server with Docker.

@@ -19,7 +19,7 @@ export function About() {
           </h3>
 
           <p className="text-base md:text-lg text-muted-foreground leading-relaxed mb-12 text-pretty">
-            I work as a full stack developer at Sistrade, on the company&apos;s ERP, mostly with .NET, Vue.js and SQL Server. My day to day is fixing bugs, building new features and talking with clients to understand what they need. I am also doing a Master&apos;s in AI Engineering at ISEP, and I like to build my own projects, like TESSERA, a fleet tracking platform.
+            I work as a full stack developer at Sistrade, on the company&apos;s ERP, mostly with .NET, Vue.js and SQL Server. My day to day is fixing bugs, building new features and talking with clients to understand what they need. I am also doing a Master&apos;s in AI Engineering at ISEP, and I like to build my own projects, like TESSELLA, a fleet tracking platform.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
